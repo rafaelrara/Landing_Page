@@ -45,12 +45,18 @@ header{
 
 .menu a:hover{
     background-color: #3AB83A;
+    color: white;
+}
+
+#home{
+    background-color: #3AB83A;
+    color: white;
 }
 
 .img_promo{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .img_promo_details{
@@ -74,7 +80,11 @@ header{
 }
 
 .img_promo_details a:hover{
-    background-color: #6800B5;
+    background-color: #6800b5;
+}
+
+main{
+    margin-top: 50px;
 }
 
 .benefits{
@@ -88,10 +98,11 @@ header{
 
 .benefits_details{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .benefits_details img{
@@ -99,4 +110,39 @@ header{
     width:50px;
     margin-bottom: 15px;
     filter: brightness(10);
+}
+
+.testimonies{
+    display: flex;
+    height:300px;
+}
+
+.testimonies_details{
+    padding:20px;
+    display: flex;
+    align-items:center;
+}
+
+.testimonies_details img{
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #0D1C39;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+footer h1{
+    color: white;
+
+}
+
+.footer_details img{
+    height: 80px;
 }
