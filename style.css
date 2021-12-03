@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Righteous', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 900px;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.logo img,
+.logo h1{
+    padding: 0px 20px 5px 0px;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li{
+    margin: 10px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: #3AB83A;
+}
+
+.img_promo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img_promo_details{
+    text-align: center;
+}
+
+.img_promo_details img{
+    max-height: 250px;
+    margin-bottom: 20px;;
+}
+
+.img_promo_details p{
+    margin-bottom: 20px;
+}
+
+.img_promo_details a{
+    text-decoration: none;
+    background-color: #2C009D;
+    padding:10px;
+    color: white;
+}
+
+.img_promo_details a:hover{
+    background-color: #6800B5;
+}
+
+.benefits{
+    background-color: #0D1C39;
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    color: white;
+}
+
+.benefits_details{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits_details img{
+    height:50px;
+    width:50px;
+    margin-bottom: 15px;
+    filter: brightness(10);
+}
